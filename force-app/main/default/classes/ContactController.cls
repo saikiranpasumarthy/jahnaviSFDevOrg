@@ -12,7 +12,7 @@ public with sharing class ContactController {
                 Email,
                 Picture__c
             FROM Contact
-            WHERE Picture__c != NULL
+            //WHERE Picture__c != NULL
             WITH USER_MODE
             LIMIT 10
         ];
